@@ -1355,4 +1355,3 @@ $('title').ready(function() {
     displayButton();
   }
 });
-
