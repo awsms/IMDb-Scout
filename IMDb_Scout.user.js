@@ -6,7 +6,6 @@
 // Preference window for userscripts, hosted by greasyfork:
 // @require     https://greasyfork.org/libraries/GM_config/20131122/GM_config.js
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
-// @downloadURL  https://github.com/awsms/IMDb-Scout/raw/master/IMDb_Scout.user.js
 //
 // @version        5.3.1
 // @include        http*://*.imdb.tld/title/tt*
@@ -1150,6 +1149,12 @@ var icon_sites = [
   {   'name': 'YouTube.com',
       'searchUrl': 'https://www.youtube.com/results?search_query="%search_string%"+%year%+trailer'}
 ];
+
+var usenet_indexers = [
+  {   'name': 'in',
+      'icon': '',
+      'searchUrl': 'https://nzbs.in/movies/?imdb=%nott%',
+      'matchRegex': /No result\./]
 
 // For internal use (order matters)
 var valid_states = [
