@@ -982,7 +982,7 @@ var private_sites = [
   {   'name': 'SRRDB',
       'icon': 'https://ptpimg.me/i93q86.png',
       'searchUrl': 'https://www.srrdb.com/browse/imdb:%tt%/1',
-      'matchRegex':/0 results/,
+      'matchRegex':/^0 results/,
       'both':true},
   {   'name': 'TBD',
       'icon': 'https://1.bp.blogspot.com/-F2JeKtPCJYI/VgjpVxwMO4I/AAAAAAAAADg/VyNyp-yW9Ac/s1600/TBD.ico',
